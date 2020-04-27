@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+}
+
+/* unvisited link */
+a:link {
+    color: #077f4d;
+}
+
+/* visited link */
+a:visited {
+    color: #089659;
+}
+
+/* mouse over link */
+a:hover {
+    color: #089659;
+}
+
+/* selected link */
+a:active {
+    color: 077f4d;
+}
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 16px;
+    background-color: #000000;
+    color: #dddddd;
+    padding: 3px;
+    height: 100%;
+}
+
+.wht {
+  padding: 60px;
+  padding-left:  100px;
+  padding-right: 100px;
+  background-color: #ffffff;
+  color: #2e3130
+}
+
+object {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    /*font-family: Palatino, serif;*/
+    font-family: "Gill Sans", sans-serif;
+    border-bottom: 3px solid #089659;
+    color: #077f4d;
+    font-size: 48px;
+}
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #2e3130;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: black;
+}
+
+#container {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    width: 100%;
+}
+
+/* =================================================== */
+
+.grn {
+  padding: 60px;
+  padding-left:  100px;
+  padding-right: 100px;
+  background-color : #073824
+}
+
+.red {
+  padding: 60px;
+  padding-left:  100px;
+  padding-right: 100px;
+  background-color : #3E1007
+}

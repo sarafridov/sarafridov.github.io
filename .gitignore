@@ -1,0 +1,5 @@
+# Mac/emacs files.
+.DS_Store
+*~
+cscope*
+.clang_complete
