@@ -22,6 +22,15 @@ a:active {
     color: 077f4d;
 }
 
+header {
+    border-top: 1px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #bf5700;
+    border-bottom: 1px;
+    padding: 1px;
+}
+
 body {
     font-family: "Gill Sans", sans-serif;
     font-size: 20px;
