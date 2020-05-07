@@ -44,17 +44,12 @@ h1 {
     font-size: 48px;
 }
 
-ul#menu {
-    padding: 0;
-    margin-bottom: 11px;
-}
-
-ul#menu li {
+nav ul li {
     display: inline;
     margin-right: 3px;
 }
 
-ul#menu li a {
+nav ul li a {
     background-color: #bf5700;
     padding: 10px 20px;
     text-decoration: none;
@@ -62,7 +57,7 @@ ul#menu li a {
     border-radius: 4px 4px 0 0;
 }
 
-ul#menu li a:hover {
+nav ul li a:hover {
     color: #f9f9f9;
     background-color: #FFA500;
 }
