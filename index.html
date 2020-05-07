@@ -1,27 +1,19 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>David Fridovich-Keil</title>
-    <link href="site.css" rel="stylesheet">
-  </head>
+---
+layout: default
+title: David Fridovich-Keil
+---
 
-  <nav id="nav01"></nav>
-
-  <body>
-
-    <div class="wht">
-      <h1>About me</h1>
+<div class="blurb">
+<h1>About me</h1>
       <p><img src="imgs/dalsnibba.jpg" alt="selfie" style="width:25%;" align="right">
       Hi there! I'm a fifth year PhD student here at Berkeley, working on autonomous robotics and optimal control. I am advised by Prof. Claire Tomlin in the <a href="http://hybrid.eecs.berkeley.edu">Hybrid Systems Lab</a>. I'm also a member of the <a href="http://bair.berkeley.edu">Berkeley AI Research lab</a>, and I am supported by an NSF Graduate Research Fellowship. I did my undergrad in electrical engineering at Princeton (2015). I'm excited to be joining the faculty of UT Austin's Department of Aerospace Engineering and Engineering Mechanics in August 2021.</p>
 
       <p>Outside of research, I like to play squash and frisbee, read fantasy novels, and play acoustic guitar.</p>
 
       <h2>Contact info</h2>
-      <p>The best way to reach me is by email. My address is: <tt>dfk at eecs dot berkeley dot edu</tt>.</p>
-    </div>
+           <p>The best way to reach me is by email. My address is: <tt>dfk at eecs dot berkeley dot edu</tt>.</p>
 
-    <div class="org">
-      <h1>Research interests</h1>
+<h1>Research interests</h1>
       <p>I am generally interested in optimal control, motion planning, and safe autonomy. So far, I have primarily worked on game-theoretic techniques for motion planning that directly encode robustness to external disturbances and actions of other agents, and operate in real-time. My work so far falls into two main categories: efficient motion planning with reachability-based safety guarantees, and solving large-scale multi-player nonlinear differential games. I have also worked on a number of other projects related to reinforcement learning, distributed control, adaptive receding horizon control, and active search.</p>
 
       <h2>Efficient motion planning with safety guarantees</h2>
@@ -34,19 +26,13 @@
       <h2>Solving large multi-player nonlinear differential games <i>in real time</i></h2>
       <p>Differential games are a widely-applicable mathematical tool, and offer an attractive alternative to traditional formulations of motion planning problems. In particular, motion planning problems are often posed in either static environments or dynamic environments where the predicted motion of other agents is completely independent from the robot's planned trajectory. Unfortunately, this can put an undue burden on the predictive model to be precise despite enormous uncertainty. Differential game theory offers an exciting alternative; rather than fix a prediction beforehand, we can presume that other agents are optimizing some <i>known</i> (or estimated) objectives, and solve a differential game to find a <i>local equilibrium</i>. Effectively coupling prediction and planning, this approach shifts the enormous burden of making accurate predictions to the potentially more straightforward task of modeling short-term dynamic objectives.</p>
       <p>Until relatively recently, differential games were widely considered to be computationally intractible for general nonlinear systems and multiple players with arbitrary objectives. Several approximation techniques have been explored in the literature, but to my knowledge none have been seriously considered in the industry. <a href="pdfs/ILQGames.pdf">My own work in this area</a> consists of a fast second-order solver based on iterative LQR--a standard algorithm for nonlinear MPC used in the autonomous vehicle industry. I am actively working on a real-time C++ implementation, available <a href="https://hjreachability.github.io/ilqgames/">open-source</a>. I've done some preliminary tests in the lab and should have a video to post soon from a sweet demo onboard a Boeing experimental aircraft! Stay tuned!</p>
-    </div>
 
-    <div class="wht">
-      <h1>Links</h1>
-      <p><a href="https://github.com/dfridovi">Github</a></p>
-      <p><a href="https://scholar.google.com/citations?user=gqyTnpQAAAAJ&hl=en&oi=ao">Google Scholar</a></p>
-      <p><a href="https://www.linkedin.com/in/davidfridovichkeil">LinkedIn</a></p>
-    </div>
-
-    <div class="org">
-      <footer id="foot01"></footer>
-    </div>
-
-    <script src="script.js"></script>
-  </body>
-</html>
+<h1>Links</h1>
+<nav>
+    <ul>
+        <li><a href="https://github.com/dfridovi">GitHub<a/></li>
+        <li><a href="https://scholar.google.com/citations?user=gqyTnpQAAAAJ&hl=en&oi=ao"">Google Scholar<a/></li>
+        <li><a href="https://www.linkedin.com/in/davidfridovichkeil">LinkedIn<a/></li>
+    </ul>
+</nav>
+</div>
