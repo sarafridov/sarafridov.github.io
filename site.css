@@ -89,12 +89,12 @@ ol li {
 }
 
 footer {
-    border-top: 1px solid #ffffff;
+    border-top: 1px;
     font-size: 20px;
     color: #ffffff;
     background-color: #bf5700;
     border-bottom: 1px;
-    padding: 10px;
+    padding: 1px;
 }
 
 /* =================================================== */
