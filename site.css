@@ -44,6 +44,11 @@ h1 {
     font-size: 48px;
 }
 
+ul {
+    font-size: 20px;
+    color: #ffffff;
+}
+
 nav ul, footer ul {
     font-size: 20px;
     font-family: 'Gill Sans', sans-serif;
@@ -70,7 +75,7 @@ footer {
     color: #ffffff;
     background-color: #bf5700;
     border-bottom: 1px;
-    padding-bottom: 10px;
+    padding: 1px;
 }
 
 /* =================================================== */
