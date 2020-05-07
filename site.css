@@ -45,8 +45,8 @@ h1 {
 }
 
 nav ul, footer ul {
-    font-size: 1em;
-    font-family: 'Gill Sans', 'Sans-Serif';
+    font-size: 20px;
+    font-family: 'Gill Sans', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -65,10 +65,11 @@ nav ul li, footer ul li {
 }
 
 footer {
-    border-top: 1px solid #bf5700;
+    border-top: 1px;
     font-size: 20px;
     color: #ffffff;
     background-color: #bf5700;
+    border-bottom: 1px
 }
 
 /* =================================================== */
