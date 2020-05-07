@@ -54,6 +54,10 @@ ol {
     color: #ffffff;
 }
 
+.tab {
+    margin-left: 40px;
+}
+
 nav ul, footer ul {
     font-size: 20px;
     font-family: 'Gill Sans', sans-serif;
