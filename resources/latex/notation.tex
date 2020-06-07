@@ -1,0 +1,40 @@
+\newcommand{\mbb}{\mathbb}
+\newcommand{\mc}{\mathcal}
+\newcommand{\bigoh}{\mathcal{O}}
+
+\newcommand{\dfknote}[1]{{\color{orange}\textbf{#1}}}
+
+\newcommand{\state}{x}
+\newcommand{\dstate}{\dot{\state}}
+\newcommand{\ddstate}{\ddot{\state}}
+\newcommand{\control}{u}
+\newcommand{\disturb}{d}
+\newcommand{\maxdisturb}{\overline{\disturb}}
+\newcommand{\mindisturb}{\underline{\disturb}}
+\newcommand{\dyn}{f}
+\newcommand{\posx}{p_x}
+\newcommand{\posy}{p_y}
+\newcommand{\posz}{p_z}
+\newcommand{\velx}{v_x}
+\newcommand{\vely}{v_y}
+\newcommand{\velz}{v_z}
+
+\makeatletter
+\DeclareMathOperator*{\maxd}{max\vphantom{\operator@font p}} % max with descender
+\DeclareMathOperator*{\infd}{inf\vphantom{\operator@font p}} % inf with descender
+\makeatother
+
+\newcommand{\traj}{\xi}
+\newcommand{\xdim}{n}
+\newcommand{\udim}{m}
+\newcommand{\xset}{\mbb{R}^\xdim}
+\newcommand{\uset}[1]{\mbb{R}^{\udim_{#1}}}
+
+\newtheorem{remark}{Remark}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{example}{Example}
+\newcommand{\runningexample}[1]{\emph{Running example:}~\textit{#1}}

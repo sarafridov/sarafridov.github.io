@@ -1,0 +1,50 @@
+---
+layout: default
+title: Resources
+---
+
+<div class="wht">
+<h1>Some (hopefully useful) references</h1>
+    <p>The following is a list of a few references which I hope will be useful to other young researchers. If you already have something figured out for one of these categories that works for you though, of course take my suggestions with a grain of salt. Also, if you have any suggestions or spot any errors, please do contact me.</p>
+</div>
+
+<div class="org">
+   <h2>Git</h2>
+   <p><code>Git</code> is a free tool for version control, and it's widely used by folks who develop software. There are a ton of blogs out there with much more extensive descriptions of what's going on under the hood, and this is not meant to be a full <code>git</code> tutorial.</p>
+   <p>Whenever I start a new software-based project, it usually goes in a new repository, which I host on <a href="https://github.com/dfridovi">GitHub</a>. There are several web-based platforms out there for hosting repositories, but GitHub seems to be the most popular one and I've always found it perfectly suitable (and free!). When I'm working on a team, or even sometimes when I'm working by myself, I find it useful to maintain separate branches for different <i>features</i>. I usually work something like this:</p>
+       <ol>
+          <li>Sync up with latest <code>master</code> (assuming I'm already in <code>master</code>): <code>git pull</code></li>
+          <li>Start working on a new feature: <code>git checkout -b feature/[descriptive-name-of-feature]</code> (or sometimes <code>git checkout -b [git-id]/[descriptive-name-of-feature]</code>)</li>
+          <li>Work on the feature. Typically this involves repeatedly adding new files (<code>git add -A</code>), committing changes (<code>git commit -am '[commit-msg]'</code>), and pushing to this branch (<code>git push origin [branch-name]</code>).</li>
+          <li>When I'm ready to think about merging, open a <a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests">Pull Request</a>. I usually like to give the PR a descriptive name, describe what it does briefly and perhaps post a picture of the new output if relevant, and then if I have collaborators add them as reviewers. The whole point of using PRs is to help software development teams stay apprised of what is going on with a repository and to maintain a consistent style. Even if I'm just working by myself I like to use PRs sometimes as a mechanism to self-document the important changes, although of course the code review part of the process is somewhat superfluous.</li>
+          <li>When the PR is ready to merge into <code>master</code>, do so in the GitHub interface (if on a team, then this usually means after one ore more reviewers approve the PR) and delete the branch. Sometimes there will be a merge conflict with <code>master</code>, in which case I checkout master, pull latest changes, checkout my branch, merge with master, and manually fix any merge conflicts. Alternatively, some folks like to rebase on top of master (instead of merging), which can make errors a little nastier but leads to a clean, linear <code>git</code> history. The code for merging is as follows: <code>git checkout master && git pull && git checkout [branch-name] && git merge master</code></li>
+          <li>Then, in the terminal, I checkout master again, make sure it's up to date, and then delete the feature branch locally: <code>git checkout master && git pull && git branch -d [branch-name]</li>
+       </ol>
+</div>
+
+<div class="wht">
+   <h2>C++</h2>
+   <p>I'm a C++ enthusiast. I use it for just about every project I work on, and here's why I think you should too. There are a ton of resources online and books and stuff you can check out to learn more. I recommend <a href="https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876/ref=pd_aw_fbt_14_img_2/139-5680242-3340422?_encoding=UTF8&pd_rd_i=0321334876&pd_rd_r=ec88cd99-4b88-4782-8516-36ea950542c2&pd_rd_w=9ikLf&pd_rd_wg=89vkN&pf_rd_p=6e6afc8a-fbbd-4649-97cf-4e08f5113612&pf_rd_r=XXQSFVEH7DWAVCKFB9V9&psc=1&refRID=XXQSFVEH7DWAVCKFB9V9">Effective C++: 55 Specific Ways to Improve Your Programs and Designs (Professional Computing)</a>, though admittedly this is more useful if you're already fairly familiar with another compiled language and with some of the basics of C++.</p>
+   <p>The main reasons to use C++ are threefold:</p>
+   <ol>
+       <li>C++ is fast. It's a compiled language, as opposed to Python and Matlab which are interpreted, which means that everything you write in pure C++ (including that <code>for</code> loop is going to get compiled and be executed quickly.</li>
+       <li>C++ is widely used in robotics. Don't believe the folks who tell you otherwise. I remember hearing from a friend who told me that a well-known professor had asked them why they were bothering to learn C++ when Python was so much more useful in industry. Ok. So the deal is this: Python is definitely a great tool for prototyping and it is certainly widely used for developing ML systems. However, it is very <i>slow</i> and that means that most companies with <i>real robots</i> end up developing production code in C++ instead. And that's not even getting into the non-ML components of a company (of which there are usually many) that have absolutely no area-specific attachment to Python. Other folks I've heard ask why not use some other compiled language like Julia. Julia's a great language, but mainly because it's newer I think the reality is just that most companies out there don't use it. So the nbottom line is: if you want to lower the "activation energy" for a company to use your research idea, it's best to implement it in a language they probably already use...</li>
+       <li>C++ is convenient. I can't tell you the number of times I've had a friend who's learning C++ complain about how tricky it is. The fact is: like any compiled, object-oriented langauge, it has a serious learning curve for folks not yet exposed to one of those languages. However, it is really not that hard to pick up (at least <i>functionally</i>) if you are familiar with, say, C or Java. Aside from the dearth of good plotting libraries, C++ can be very quick to develop in and test new ideas. In fact, I usually don't even bother protoyping an idea in Python before testing it out in C++ because it's really just about the same development time for me.</li>
+   </ol>
+</div>
+
+<div class="org">
+    <h2>Emacs</h2>
+    <p>There are a lot of text editors out there, and just about everyone has their favorite. I like <code>emacs</code>, which is a pretty old editor developed for GNU. It's extremely functional and yet minimalist--a significant change from the glitsy IDEs like Sublime and Eclipse that seem to be increasingly popular. My freshman CS professor challenged anyone in the 300+ person class to try to develop faster than he could in <code>emacs</code>, so I figured it must be pretty good. A friend pointed me toward the <a href="https://www.spacemacs.org">Spacemacs</a> project a while back and I've never looked back.</p>
+</div>
+
+<div class="wht">
+    <h2>LaTeX</h2>
+    <p>LaTeX is a great language for writing text and turning it into PDFs, and it's extremely widely used in academia and particularly in robotics. In fact, I've never heard of anyone in robotics or control who's publishing today who doesn't use LaTeX for preparing conference or journal submissions.</p>
+    <p>There are many different ways to write and compile LaTeX. Of course you can develop it in any text editor, and compile it in the terminal, but oddly enough this is the one purpose I prefer using an IDE for. I use <a href="https://www.overleaf.com">Overleaf</a>, an online editor and compiler for LaTeX, and I highly recommend it. In addition, here are a few references you might find useful:</p>
+    <ol>
+        <li><a href="latex/ieeeconf.cls">IEEEconf</a> and <a href="latex/IEEEtran.cls">IEEEtran</a> are templates used by IEEE conferences and journals.</li>
+        <li>A list of common packages is <a href="latex/usepackage.tex">here</a> and some useful shortcuts are defined <a href="latex/notation.tex">here</a>.</li>
+        <li>I've also listed some <a href="latex/books.bib">books</a> and <a href="latex/papers.bib">papers</a> in bibtex format.</li>
+    </ol>
+</div>
