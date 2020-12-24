@@ -1,93 +1,38 @@
 ---
-title: About Alembic
+title: About me
 feature_text: |
-  ## Alembic
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
+  ## David Fridovich-Keil
+  I am a postdoc in the Multi-Agent Systems Lab at Stanford. My research involves optimal control, motion planning, and game theory.
 feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+excerpt: "optimal control, motion planning, game theory"
 ---
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get rolling immediately. Install it, configure it, tweak it, push it.
+{% include figure.html image="/assets/imgs/dalsnibba.jpg" position="right" width="300" height="800" %}
 
-{% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Buy me a coffee ☕️" link="https://buymeacoffee.com/daviddarnes#support" color="#f68140" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %}
+Hi there! I just finished my PhD at UC Berkeley, where I worked on autonomous robotics and optimal control, and was advised by Prof. Claire Tomlin in the [Hybrid Systems Lab](http://hybrid.eecs.berkeley.edu/) and the [Berkeley AI Research Lab](http://bair.berkeley.edu/). During my PhD, I was supported by an NSF Graduate Research Fellowship. I did a short postdoc in the same group, and have now moved to Stanford to postdoc with Prof. Mac Schwager in the [Multi-Agent Systems Lab](https://msl.stanford.edu). I'm excited to be joining the faculty of UT Austin's Department of Aerospace Engineering and Engineering Mechanics in August 2021.
 
-## Features
+Outside of research, I like to play squash and frisbee, read fantasy novels, and play acoustic guitar.
 
-- Available as a **theme gem** and **GitHub Pages** theme
-- Clear and elegant design that can be used out of the box or as solid starting point
-- Tested in all major browsers, including **IE and Edge**
-- Built in **Service Worker** so it can work offline and on slow connections
-- **Configurable colours** and typography in a single settings file
-- Extensive set of **shortcodes** to include various elements; such as buttons, icons, figure images and more
-- Solid **typographic framework** from [Sassline](https://sassline.com/)
-- Configurable navigation via a single file
-- Modular Jekyll components
-- Post category support in the form of a single post index page grouped by category
-- Built in live search using JavaScript
-- **Contact form** built in using [Formspree](https://formspree.io/)
-- Designed with **[Siteleaf](https://www.siteleaf.com/)** in mind
-- Has 9 of the most popular networks as performant sharing buttons
-- Has documentation
+### Contact info
 
-## Examples
+The best way to reach me is by email, at _david.fridovichkeil_ at _stanford_ dot _edu_
 
-Here are a few examples of Alembic out in the wild being used in a variety of ways:
+## Research interests
 
-- [bawejakunal.github.io](https://bawejakunal.github.io/)
-- [case2111.github.io](https://case2111.github.io/)
-- [karateca.org](https://www.karateca.org/)
+I am generally interested in optimal control, motion planning, and safe autonomy. Please have a look at my [PhD dissertation](/assets/pdfs/phd_dissertation.pdf). So far, I have primarily worked on game-theoretic techniques for motion planning that directly encode robustness to external disturbances and actions of other agents, and operate in real-time. My work so far falls into two main categories: efficient motion planning with reachability-based safety guarantees, and solving large-scale multi-player nonlinear differential games. I have also worked on a number of other projects related to reinforcement learning, distributed control, adaptive receding horizon control, and active search.
 
-## Installation
+### Efficient motion planning with safety guarantees
 
-### Quick setup
+In motion planning and control, there is often a division between methods that work well in real time, and those that provide strict safety guarantees. For example, iterative LQR (iLQR) is a popular method of generating smooth optimal control sequences in real time for relatively high-dimensional systems; yet iLQR does not guarantee robustness, e.g. against environmental disturbances. By contrast, Hamilton-Jacobi (HJ) reachability can provide hard safety guarantees and disturbance rejection but for general nonlinear systems is only tractable in fairly low dimension.
 
-To give you a running start I've put together some starter kits that you can download, fork or even deploy immediately:
+[FaSTrack](https://arxiv.org/abs/1703.07373) is a new approach that uses an offline reachability computation to inform an online motion planner like iLQR to blend the best of these two types of algorithms. I have worked on several projects extending FaSTrack. In [Planning, Fast and Slow](https://arxiv.org/abs/1710.04731), we broaden the concept of motion planning to allow for multiple different types of planning algorithms (with potentially different notions of state) to run concurrently and stitch together seamlessly while retaining the original FaSTrack safety guarantee. We have also tested a [neural network-based HJ reachability solver](https://arxiv.org/abs/1803.03237) and used it to compute conservative approximations to reachable sets for higher dimensional systems. Finally, I recently built a high-level graph-based wrapper around kinodynamic planners to extend the modular FaSTrack guarantees to a priori unknown environments while retaining [recursive safety and liveness](https://arxiv.org/abs/1811.07834).
 
-- ⚗️🍨 Vanilla Jekyll starter kit  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-kit){:style="background: none"}
-- ⚗️🌲 Forestry starter kit  
-  [![Deploy to Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=daviddarnes/alembic-forestry-kit&engine=jekyll){:style="background: none"}  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-forestry-kit){:style="background: none"}
-- ⚗️💠 Netlify CMS starter kit  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daviddarnes/alembic-netlifycms-kit&stack=cms){:style="background: none"}
+### Confidence-aware prediction of another agent's motion
 
-- ⚗️:octocat: GitHub Pages with remote theme kit  
-  {% include button.html text="Download kit" link="https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip" color="#24292e" %}
-- ⚗️🚀 Stackbit starter kit  
-  [![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/daviddarnes/alembic-stackbit-kit){:style="background: none"}
+It's always nice to be able to trust that, when a motion planner says the system remains safe we can trust that, at runtime, the system will actually remain safe despite potential modeling errors. That's precisely why studying robust control is important. However, an autonomous system might also encounter other moving agents at runtime, and when this happens the system has to make some assumptions on how they might behave. Unfortunately, any model we might construct to predict the motion of these other agents will, in general, fail systematically in some situations; to be robust to this inevitability, we proposed a novel Bayesian framework for inferring our model confidence and dynamically adjusting predictions online to be more conservative whenever model confidence drops. We took a first step toward incorporating uncertain predictions of a pedestrian into FaSTrack in a recent paper at [RSS 2018](https://arxiv.org/abs/1806.00109) and extended at [IJRR](https://journals.sagepub.com/doi/pdf/10.1177/0278364919859436), and we recently extended this approach to work with multiple pedestrians and multiple robots.
 
-### As a Jekyll theme
+### Solving large multi-player nonlinear differential games _in real time_
 
-1. Add `gem "alembic-jekyll-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the theme and its dependancies
-3. Add `theme: alembic-jekyll-theme` to your `_config.yml` file to set the site theme
-4. Run `bundle exec jekyll serve` to build and serve your site
-5. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
+Differential games are a widely-applicable mathematical tool, and offer an attractive alternative to traditional formulations of motion planning problems. In particular, motion planning problems are often posed in either static environments or dynamic environments where the predicted motion of other agents is completely independent from the robot's planned trajectory. Unfortunately, this can put an undue burden on the predictive model to be precise despite enormous uncertainty. Differential game theory offers an exciting alternative; rather than fix a prediction beforehand, we can presume that other agents are optimizing some _known_ (or estimated) objectives, and solve a differential game to find _a local equilibrium_. Effectively coupling prediction and planning, this approach shifts the enormous burden of making accurate predictions to the potentially more straightforward task of modeling short-term dynamic objectives.
 
-### As a GitHub Pages remote theme
-
-1. Add `gem "jekyll-remote-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-3. Add `jekyll-remote-theme` to the list of `plugins` in your `_config.yml` file
-4. Add `remote_theme: daviddarnes/alembic` to your `_config.yml` file to set the site theme
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
-
-### As a Boilerplate / Fork
-
-_(deprecated, not recommended)_
-
-1. [Fork the repo](https://github.com/daviddarnes/alembic#fork-destination-box)
-2. Replace the `Gemfile` with one stating all the gems used in your project
-3. Delete the following unnecessary files/folders: `.github`, `LICENSE`, `screenshot.png`, `CNAME` and `alembic-jekyll-theme.gemspec`
-4. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/daviddarnes/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
-
-## Customising
-
-When using Alembic as a theme means you can take advantage of the file overriding method. This allows you to overwrite any file in this theme with your own custom file, by matching the file name and path. The most common example of this would be if you want to add your own styles or change the core style settings.
-
-To add your own styles copy the [`styles.scss`](https://github.com/daviddarnes/alembic/blob/master/assets/styles.scss) into your own project with the same file path (`assets/styles.scss`). From there you can add your own styles, you can even optionally ignore the theme styles by removing the `@import "alembic";` line.
-
-If you're looking to set your own colours and fonts you can overwrite them by matching the variable names from the [`_settings.scss`](https://github.com/daviddarnes/alembic/blob/master/_sass/_settings.scss) file in your own `styles.scss`, make sure to state them before the `@import "alembic";` line so they take effect. The settings are a mixture of custom variables and settings from [Sassline](https://medium.com/@jakegiltsoff/sassline-v2-0-e424b2881e7e) - follow the link to find out how to configure the typographic settings.
+Until relatively recently, differential games were widely considered to be computationally intractible for general nonlinear systems and multiple players with arbitrary objectives. Several approximation techniques have been explored in the literature, but to my knowledge none have been seriously considered in the industry. [My own work](https://arxiv.org/pdf/1909.04694) in this area consists of a fast second-order solver based on iterative LQR--a standard algorithm for nonlinear MPC used in the autonomous vehicle industry. I recently developed (and continue to contribute to) a real-time C++ implementation, available [open-source](https://hjreachability.github.io/ilqgames/). This solver has been tested in simulation, in hardware in the lab, and onboard a full-scale Boeing experimental aircraft.
