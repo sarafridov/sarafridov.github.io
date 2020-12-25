@@ -11,7 +11,7 @@ Sometimes I have a idea that I want to try out, so I just start up a new git rep
 
 ## FaSTrack
 
-[FaSTrack] (https://arxiv.org/abs/1703.07373) (Fast and Safe Tracking) is a new approach to real time trajectory planning that preserves a modular safety guarantee. I've also worked on several extensions to it, e.g. [meta-planning](https://arxiv.org/abs/1710.04731) but in the process I decided to go ahead and build a nice, clean, open-source [ROS implementation](https://github.com/HJReachability/meta_fastrack) of the original version. Be warned... it may or may not abuse C++ templates.
+[FaSTrack](https://arxiv.org/abs/1703.07373) (Fast and Safe Tracking) is a new approach to real time trajectory planning that preserves a modular safety guarantee. I've also worked on several extensions to it, e.g. [meta-planning](https://arxiv.org/abs/1710.04731) but in the process I decided to go ahead and build a nice, clean, open-source [ROS implementation](https://github.com/HJReachability/meta_fastrack) of the original version. Be warned... it may or may not abuse C++ templates.
 
 ## Dumbo
 
