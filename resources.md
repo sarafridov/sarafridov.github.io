@@ -57,8 +57,8 @@ There are a lot of text editors out there, and just about everyone has their fav
 
 LaTeX is a great language for writing text and turning it into PDFs, and it's extremely widely used in academia and particularly in robotics. In fact, I've never heard of anyone in robotics or control who's publishing today who doesn't use LaTeX for preparing conference or journal submissions.
 
-There are many different ways to write and compile LaTeX. Of course you can develop it in any text editor, and compile it in the terminal, but oddly enough this is the one purpose I prefer using an IDE for. I use [Overleaf](https://www.overleaf.com/), an online editor and compiler for LaTeX, and I highly recommend it. In addition, here are a few references you might find useful:
+There are many different ways to write and compile LaTeX. Of course you can develop it in any text editor, and compile it in the terminal, but oddly enough this is the one purpose I prefer using an IDE for. I use [Overleaf](https://www.overleaf.com/), an online editor and compiler for LaTeX, and I highly recommend it.
 
-* [IEEEconf](/assets/latex/ieeeconf.cls) and [IEEEtran](/assets/latex/IEEEtran.cls) are templates used by IEEE conferences and journals.
-* A list of common packages is [here](/assets/latex/usepackage.tex) and some useful shortcuts are defined [here](/assets/latex/notation.tex).
-* I've also listed some [books](/assets/latex/books.bib) and [papers](/assets/latex/papers.bib) in bibtex format.
+<!-- * [IEEEconf](/assets/latex/ieeeconf.cls) and [IEEEtran](/assets/latex/IEEEtran.cls) are templates used by IEEE conferences and journals. -->
+<!-- * A list of common packages is [here](/assets/latex/usepackage.tex) and some useful shortcuts are defined [here](/assets/latex/notation.tex). -->
+<!-- * I've also listed some [books](/assets/latex/books.bib) and [papers](/assets/latex/papers.bib) in bibtex format. -->

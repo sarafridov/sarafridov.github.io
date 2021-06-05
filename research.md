@@ -9,6 +9,32 @@ aside: false
 
 The following is a brief summary of past research projects. In most cases, code is available on github, and links are provided.
 
+## Multi-Hypothesis Interactions in Game-Theoretic Motion Planning
+
+We present a novel method for handling uncertainty about the intentions of non-ego players in dynamic games, with application to motion planning for autonomous vehicles. Equilibria in these games explicitly account for interaction among other agents in the environment, such as drivers and pedestrians. Our method models the uncertainty about the intention of other agents by constructing multiple hypotheses about the objectives and constraints of other agents in the scene. For each candidate hypothesis, we associate a Bernoulli random variable representing the probability of that hypothesis, which may or may not be independent of the probability of other hypotheses. We leverage constraint asymmetries and feedback information patterns to incorporate the probabilities of hypotheses in a natural way. Specifically, increasing the probability associated with a given hypothesis from 0 to 1 shifts the responsibility of collision avoidance from the hypothesized agent to the ego agent. This method allows the generation of interactive trajectories for the ego agent, where the level of assertiveness or caution that the ego exhibits is directly related to the easy-to-model uncertainty it maintains about the scene.
+
+This work was presented at ICRA 2021, and is available [here](https://arxiv.org/pdf/2011.06047).
+
+
+## Encoding Defensive Driving as a Dynamic Nash Game
+
+Robots deployed in real-world environments should operate safely in a robust manner. In scenarios where an "ego" agent navigates in an environment with multiple other "non-ego" agents, two modes of safety are commonly proposed: adversarial robustness and probabilistic constraint satisfaction. However, while the former is generally computationally-intractable and leads to overconservative solutions, the latter typically relies on strong distributional assumptions and ignores strategic coupling between agents. To avoid these drawbacks, we present a novel formulation of robustness within the framework of general sum dynamic game theory, modeled on defensive driving. More precisely, we inject the ego's cost function with an adversarial phase, a time interval during which other agents are assumed to be temporarily distracted, to robustify the ego agent's trajectory against other agents' potentially dangerous behavior during this time. We demonstrate the effectiveness of our new formulation in encoding safety via multiple traffic scenarios.
+
+This work was presented at ICRA 2021, and is available [here](https://arxiv.org/pdf/2011.04815). Code is available [here](https://hjreachability.github.io/ilqgames/).
+
+
+## Approximate Solutions to a Class of Reachability Games
+
+In this paper, we present a method for finding approximate Nash equilibria in a broad class of reachability games. These games are often used to formulate both collision avoidance and goal satisfaction. Our method is computationally efficient, running in real-time for scenarios involving multiple players and more than ten state dimensions. The proposed approach forms a family of increasingly exact approximations to the original game. Our results characterize the quality of these approximations and show operation in a receding horizon, minimally-invasive control context. Additionally, as a special case, our method reduces to local optimization in the single-player (optimal control) setting, for which a wide variety of efficient algorithms exist.
+
+This work was presented at ICRA 2021, and is available [here](https://arxiv.org/pdf/2011.00601). Code is available [here](https://hjreachability.github.io/ilqgames/).
+
+## Inference-Based Strategy Alignment for General-Sum Differential Games
+
+In many settings where multiple agents interact, the optimal choices for each agent depend heavily on the choices of the others. These coupled interactions are well-described by a general-sum differential game, in which players have differing objectives, the state evolves in continuous time, and optimal play may be characterized by one of many equilibrium concepts, eg, a Nash equilibrium. Often, problems admit multiple equilibria. From the perspective of a single agent in such a game, this multiplicity of solutions can introduce uncertainty about how other agents will behave. This paper proposes a general framework for resolving ambiguity between equilibria by reasoning about the equilibrium other agents are aiming for. We demonstrate this framework in simulations of a multi-player human-robot navigation problem that yields two main conclusions: First, by inferring which equilibrium humans are operating at, the robot is able to predict trajectories more accurately, and second, by discovering and aligning itself to this equilibrium the robot is able to reduce the cost for all players.
+
+This work was presented at AAMAS 2020, and is available [here](https://arxiv.org/pdf/2002.04354). Code is available [here](https://github.com/lassepe/iLQGames.jl).
+
 ## Efficient Iterative Linear-Quadratic Approximations for Nonlinear Multi-Player General-Sum Differential Games
 
 {% include video.html id="KPEPk-QrkQ8" title="ILQGames video" %}
