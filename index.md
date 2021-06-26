@@ -22,7 +22,7 @@ The best way to reach me is by email, at `dfk at utexas dot edu`
 I am generally interested in optimal control, dynamic games, learning for control, and robot safety. Please have a look at my [PhD dissertation](/assets/pdfs/phd_dissertation.pdf). While I have also worked on a number of other projects related to distributed control, reinforcement learning, and active search, some my current research interests are:
 
 * Posing interactive motion planning problems as multi-player, noncooperative dynamic games and designing efficient algorithms to solve them
-* Inferring properties of game-theoretic interactions, such as equilibrium type, player objec- tives, and constraints
+* Inferring properties of game-theoretic interactions, such as equilibrium type, player objectives, and constraints
 * Building a rapprochement between machine learning methods and classical techniques for robust, adaptive, and geometric control
 
 <!-- ### Interaction as a game -->
