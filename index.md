@@ -2,7 +2,7 @@
 title: About me
 feature_text: |
   ## David Fridovich-Keil
-  I am an assistant professor at the University of Texas, Austin, in the Department of Aerospace Engineering and Engineering Mechanics. My research involves optimal control, dynamic game theory, and learning for learning for robust autonomy.
+  I am an assistant professor at the University of Texas, Austin, in the Department of Aerospace Engineering and Engineering Mechanics. My research involves optimal control, dynamic game theory, and learning for robust autonomy.
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "optimal control, dynamic game theory, learning for robust autonomy"
 ---
