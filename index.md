@@ -29,7 +29,8 @@ I am generally interested in optimal control, dynamic games, learning for contro
 
 _(July 2021)_ I recently gave an invited talk at the [RSS 2021 Workshop on Perception and Control for Autonomous Navigation in Crowded, Dynamic Environments](https://negarmehr.github.io/RSS2021Workshop/). The talk aims to deliver a brief tutorial on (a) what dynamic games are, (b) why they are a good model for multi-agent interactions, (c) how to solve them efficiently, and (d) some of the mathematical subtlety underlying dynamic games. If you check out the earlier recorded talks in the workshop, you'll also notice that the iterative method for solving dynamic Nash games developed in my PhD thesis bears a striking resemblance to contemporaneous, [independent work going on at Waymo Research](https://youtu.be/T_LkNm3oXdE?t=640).
 
-{% include video.html id="EmrReoNQP3s?t=1437" title="RSS 2021 Workshop Talk" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EmrReoNQP3s?start=1420" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- {% include video.html id="EmrReoNQP3s?t=1437" title="RSS 2021 Workshop Talk" %} -->
 
 <!-- ### Interaction as a game -->
 
