@@ -25,6 +25,12 @@ I am generally interested in optimal control, dynamic games, learning for contro
 * Inferring properties of game-theoretic interactions, such as equilibrium type, player objectives, and constraints
 * Building a rapprochement between machine learning methods and classical techniques for robust, adaptive, and geometric control
 
+## News
+
+_(July 2021)_ I recently gave an invited talk at the [RSS 2021 Workshop on Perception and Control for Autonomous Navigation in Crowded, Dynamic Environments](https://negarmehr.github.io/RSS2021Workshop/). The talk aims to deliver a brief tutorial on (a) what dynamic games are, (b) why they are a good model for multi-agent interactions, (c) how to solve them efficiently, and (d) some of the mathematical subtlety underlying dynamic games. If you check out the earlier recorded talks in the workshop, you'll also notice that the iterative method for solving dynamic Nash games developed in my PhD thesis bears a striking resemblance to contemporaneous, [independent work going on at Waymo Research](https://youtu.be/T_LkNm3oXdE?t=640).
+
+{% include video.html id="EmrReoNQP3s?t=1437" title="RSS 2021 Workshop Talk" %}
+
 <!-- ### Interaction as a game -->
 
 <!-- Dynamic games are a widely-applicable mathematical tool, and offer an attractive alternative to traditional formulations of motion planning problems. In particular, motion planning problems are often posed in either static environments or dynamic environments where the predicted motion of other agents is completely independent from the robot's planned trajectory. Unfortunately, this can put an undue burden on the predictive model to be precise despite enormous uncertainty. Dynamic game theory offers an exciting alternative; rather than fix a prediction beforehand, we can presume that other agents are optimizing some _known_ objectives, and solve a dynamic game to find _a local equilibrium_. Effectively coupling prediction and planning, this approach shifts the enormous burden of making accurate predictions to the potentially more straightforward task of modeling short-term dynamic objectives. -->
