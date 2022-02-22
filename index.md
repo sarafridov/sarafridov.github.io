@@ -2,7 +2,7 @@
 title: About me
 feature_text: |
   ## David Fridovich-Keil
-  I am an assistant professor at the University of Texas, Austin, in the Department of Aerospace Engineering and Engineering Mechanics. My research involves optimal control, dynamic game theory, and learning for robust autonomy.
+  I am an assistant professor at the University of Texas at Austin, in the Department of Aerospace Engineering. My research involves optimal control, dynamic game theory, and learning for robust autonomy.
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "optimal control, dynamic game theory, learning for robust autonomy"
 ---
@@ -25,11 +25,17 @@ I am generally interested in optimal control, dynamic games, learning for contro
 * Inferring properties of game-theoretic interactions, such as equilibrium type, player objectives, and constraints
 * Building a rapprochement between machine learning methods and classical techniques for robust, adaptive, and geometric control
 
-## News
+## Lab
 
-_(July 2021)_ I recently gave an invited talk at the [RSS 2021 Workshop on Perception and Control for Autonomous Navigation in Crowded, Dynamic Environments](https://negarmehr.github.io/RSS2021Workshop/). The talk aims to deliver a brief tutorial on (a) what dynamic games are, (b) why they are a good model for multi-agent interactions, (c) how to solve them efficiently, and (d) some of the mathematical subtlety underlying dynamic games. If you check out the earlier recorded talks in the workshop, you'll also notice that the iterative method for solving dynamic Nash games developed in my PhD thesis bears a striking resemblance to contemporaneous, [independent work going on at Waymo Research](https://youtu.be/T_LkNm3oXdE?t=640).
+My lab website can be found [here](https://clearoboticslab.github.io). If you are a prospective graduate student, please feel free to email me to express your interest but do understand that I may not have the bandwidth to reply quickly. If you would like to join my lab, please apply to our department's PhD program and mention my name in your application.
 
-<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/EmrReoNQP3s?start=1420" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+## Updates
+
+Note that this website is not updated as regularly as my lab website above. Apologies for any confusion.
+
+<!-- _(July 2021)_ I recently gave an invited talk at the [RSS 2021 Workshop on Perception and Control for Autonomous Navigation in Crowded, Dynamic Environments](https://negarmehr.github.io/RSS2021Workshop/). The talk aims to deliver a brief tutorial on (a) what dynamic games are, (b) why they are a good model for multi-agent interactions, (c) how to solve them efficiently, and (d) some of the mathematical subtlety underlying dynamic games. If you check out the earlier recorded talks in the workshop, you'll also notice that the iterative method for solving dynamic Nash games developed in my PhD thesis bears a striking resemblance to contemporaneous, [independent work going on at Waymo Research](https://youtu.be/T_LkNm3oXdE?t=640). -->
+
+<!-- <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/EmrReoNQP3s?start=1420" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> -->
 <!-- {% include video.html id="EmrReoNQP3s?t=1437" title="RSS 2021 Workshop Talk" %} -->
 
 <!-- ### Interaction as a game -->
