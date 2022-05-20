@@ -9,7 +9,7 @@ excerpt: "optimal control, dynamic game theory, learning for robust autonomy"
 
 {% include figure.html image="/assets/imgs/dalsnibba.jpg" position="right" width="300" height="800" %}
 
-Hi there! I am an incoming assistant professor at UT Austin's Department of Aerospace Engineering and Engineering Mechanics. I recently finished my PhD at UC Berkeley, where I worked on autonomous robotics and optimal control, and was advised by Prof. Claire Tomlin in the [Hybrid Systems Lab](http://hybrid.eecs.berkeley.edu/) and the [Berkeley AI Research Lab](http://bair.berkeley.edu/). During my PhD, I was supported by an NSF Graduate Research Fellowship. I did a short postdoc in the same group, followed by a year at Stanford working with Prof. Mac Schwager in the [Multi-Agent Systems Lab](https://msl.stanford.edu).
+Hi there! I am an assistant professor at UT Austin's Department of Aerospace Engineering and Engineering Mechanics. I completed my PhD at UC Berkeley, where I worked on autonomous robotics and optimal control, and was advised by Prof. Claire Tomlin in the [Hybrid Systems Lab](http://hybrid.eecs.berkeley.edu/) and the [Berkeley AI Research Lab](http://bair.berkeley.edu/). During my PhD, I was supported by an NSF Graduate Research Fellowship. I did a short postdoc in the same group, followed by a year at Stanford working with Prof. Mac Schwager in the [Multi-Agent Systems Lab](https://msl.stanford.edu).
 
 Outside of research, I like to hike, play disc golf, read fantasy novels, and practice acoustic guitar.
 
