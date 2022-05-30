@@ -9,6 +9,14 @@ aside: false
 
 The following is a brief summary of past research projects. In most cases, code is available on github, and links are provided.
 
+## Learning Mixed Strategies in Trajectory Games
+
+{% include figure.html image="/assets/imgs/Lifted-Game-Solver-Flow-Chart.pdf" alt="Image with just alt text" %}
+
+In multi-agent settings, game theory is a natural framework for describing the strategic interactions of agents whose objectives depend upon one another's behavior. Trajectory games capture these complex effects by design. In competitive settings, this makes them a more faithful interaction model than traditional "predict then plan" approaches. However, current game-theoretic planning methods have important limitations. In this work, we propose two main contributions. First, we introduce an offline training phase which reduces the online computational burden of solving trajectory games. Second, we formulate a lifted game which allows players to optimize multiple candidate trajectories in unison and thereby construct more competitive “mixed” strategies. We validate our approach on a number of experiments using the pursuit-evasion game "tag."
+
+This work is published at RSS 2022, and is available [here](https://arxiv.org/pdf/2205.00291.pdf).
+
 ## Inferring Objectives in Continuous Dynamic Games from Noise-Corrupted Partial State Observations
 
 {% include video.html id="BogCsYQX9Pc" title="Inverse games video" %}
