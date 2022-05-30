@@ -124,12 +124,14 @@ navigation_header:
   url: /
 - title: Research
   url: /research/
+- title: Teaching
+  url: /teaching/
 - title: Side Projects
   url: /side_projects/
 - title: Resources
   url: /resources/
 - title: Curriculum Vitae
-  url: /assets/pdfs/dfk_curriculum_vitae.pdf
+  url: 'https://clearoboticslab.github.io/documents/dfk_cv.pdf'
 
 navigation_footer:
 - title: Created by David Fridovich-Keil
