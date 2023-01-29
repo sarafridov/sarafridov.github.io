@@ -15,7 +15,7 @@ Outside of research, I like to hike, play disc golf, read fantasy novels, and pr
 
 ### Contact info
 
-The best way to reach me is by email, at `dfk at utexas dot edu`
+The best way to reach me is by email, at `dfk at utexas dot edu`, and please call me David or Dr/Prof. Fridovich-Keil. I have not been called by my initials since I was in high school.
 
 ## Research interests
 
