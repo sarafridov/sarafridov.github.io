@@ -27,7 +27,9 @@ I am generally interested in optimal control, dynamic games, learning for contro
 
 ## Lab
 
-My lab website can be found [here](https://clearoboticslab.github.io). If you are a prospective graduate student, please feel free to email me to express your interest but do understand that I may not have the bandwidth to reply quickly. If you would like to join my lab, please apply to our department's PhD program and mention my name in your application.
+My lab website can be found [here](https://clearoboticslab.github.io). If you are a _prospective graduate student_, please feel free to reach out to me by email to express your interest. In your note, please identify one recent publication from the lab that you find interesting, and explain the technical nugget you found most exciting. Please also mention your favorite math class and the most exciting topic you learned in that class.
+
+If you are an _undergraduate student_ who is interested in doing research in the lab, e.g. for a summer internship, please first reach out to students or postdocs in the lab and try to identify a potential mentor. Once you have identified a potential mentor, please email David and cc that mentor.
 
 ## Updates
 
