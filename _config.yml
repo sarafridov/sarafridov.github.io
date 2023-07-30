@@ -41,14 +41,15 @@ paginate_path: blog/page:num # jekyll-paginate > blog page
 #jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 #twitter:
 #  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-author: David Fridovich-Keil # jekyll-seo-tag > default author
+author: Sara Fridovich-Keil # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
-  name: David Fridovich-Keil # jekyll-seo-tag > real name
+  name: Sara Fridovich-Keil # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
 #    - https://twitter.com/DavidDarnes
 #    - https://www.facebook.com/davidfridovichkeil
-    - https://www.linkedin.com/in/davidfridovichkeil/
-    - https://github.com/dfridovi
+    - https://scholar.google.com/citations?user=9xF7M6wAAAAJ&hl=en
+    - https://www.linkedin.com/in/sara-fridovich-keil-3aa744160/
+    - https://github.com/sarafridov
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -94,13 +95,13 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "David Fridovich-Keil" # Site name or title, also used in jekyll-seo-tag
+title: "Sara Fridovich-Keil" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "I am an assistant professor in the Department of Aerospace Engineering and Engineering Mechanics at UT Austin. My research involves optimal control, dynamic game theory, and learning for robust autonomy." # Site description and default description, also used in jekyll-seo-tag
-url: "https://dfridovi.github.io" # Site url, also used in jekyll-seo-tag
+description: "I am a postdoc in the Department of Electrical Engineering at Stanford. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging." # Site description and default description, also used in jekyll-seo-tag
+url: "https://sarafridov.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/dfridovi/dfridovi.github.io"
-email: "dfk@utexas.edu"
+repo: "https://github.com/dfridovi/sarafridov.github.io"
+email: "sarafk@stanford.edu"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
 # google_analytics_anonymize_ip: ''
@@ -126,22 +127,22 @@ navigation_header:
   url: /research/
 - title: Teaching
   url: /teaching/
-- title: Side Projects
-  url: /side_projects/
-- title: Resources
-  url: /resources/
+# - title: Side Projects
+#   url: /side_projects/
+# - title: Resources
+#   url: /resources/
 - title: Curriculum Vitae
-  url: 'https://clearoboticslab.github.io/documents/dfk_cv.pdf'
+  url: '/assets/pdfs/7.30.2023.pdf'
 
 navigation_footer:
-- title: Created by David Fridovich-Keil
-  url: https://dfridovi.github.io
+- title: Created by Sara Fridovich-Keil
+  url: https://sarafridov.github.io
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-#  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/davidfridovichkeil
-  GitHub: https://github.com/dfridovi
-  link: https://dfridovi.github.io
+  Google Scholar: https://scholar.google.com/citations?user=9xF7M6wAAAAJ&hl=en
+  LinkedIn: https://www.linkedin.com/in/sara-fridovich-keil-3aa744160/
+  GitHub: https://github.com/sarafridov
+  link: https://sarafridov.github.io
 #  RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
