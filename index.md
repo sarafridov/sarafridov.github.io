@@ -1,31 +1,38 @@
 ---
 title: About me
 feature_text: |
-  ## David Fridovich-Keil
-  I am an assistant professor at the University of Texas at Austin, in the Department of Aerospace Engineering. My research involves optimal control, dynamic game theory, and learning for robust autonomy.
-feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "optimal control, dynamic game theory, learning for robust autonomy"
+  ## Sara Fridovich-Keil
+  I am a postdoc at Stanford University, working with Profs. Gordon Wetzstein and Mert Pilanci in the Department of Electrical Engineering. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging.
+# feature_image: "https://picsum.photos/1300/400?image=989"
+excerpt: "inverse problems, computational imaging, computer vision, foundations of machine learning"
 ---
 
-{% include figure.html image="/assets/imgs/dalsnibba.jpg" position="right" width="300" height="800" %}
+{% include figure.html image="/assets/imgs/photo2.jpg" position="right" width="300" height="800" %}
 
-Hi there! I am an assistant professor at UT Austin's Department of Aerospace Engineering and Engineering Mechanics. I completed my PhD at UC Berkeley, where I worked on autonomous robotics and optimal control, and was advised by Prof. Claire Tomlin in the [Hybrid Systems Lab](http://hybrid.eecs.berkeley.edu/) and the [Berkeley AI Research Lab](http://bair.berkeley.edu/). During my PhD, I was supported by an NSF Graduate Research Fellowship. I did a short postdoc in the same group, followed by a year at Stanford working with Prof. Mac Schwager in the [Multi-Agent Systems Lab](https://msl.stanford.edu).
+Hi there! I am a postdoctoral scholar at Stanford University, where I work with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) on foundations and applications of machine learning and signal processing in computational imaging. I am currently supported by an NSF Mathematical Sciences Postdoctoral Research Fellowship. I completed my PhD in electrical engineering and computer sciences at UC Berkeley in May 2023, where I was advised by [Ben Recht](https://people.eecs.berkeley.edu/~brecht/) and supported by an NSF Graduate Research Fellowship. 
 
-Outside of research, I like to hike, play disc golf, read fantasy novels, and practice acoustic guitar.
+Outside of research, I like to hike, garden, cook, paint, and read fantasy and historical fiction novels.
 
 ### Contact info
 
-The best way to reach me is by email, at `dfk at utexas dot edu`, and please call me David or Dr/Prof. Fridovich-Keil. I have not been called by my initials since I was in high school.
+The best way to reach me is by email, at `sarafk at stanford dot edu`. 
 
 ## Research interests
 
-I am generally interested in optimal control, dynamic games, learning for control, and robot safety. Please have a look at my [PhD dissertation](/assets/pdfs/phd_dissertation.pdf). While I have also worked on a number of other projects related to distributed control, reinforcement learning, and active search, some my current research interests are:
+I am generally interested in foundations of machine learning, particularly connections to signal processing and optimization, and applications to inverse problems that arise in computer vision and computational, medical, and scientific imaging. Please have a look at my [PhD dissertation](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2023/EECS-2023-63.html) and/or [dissertation talk](https://drive.google.com/file/d/1PpJx7MZiiNXr8X5sZCkmnQcJIiwvPc9Q/view). Some of my current research interests are:
 
-* Posing interactive motion planning problems as multi-player, noncooperative dynamic games and designing efficient algorithms to solve them
-* Inferring properties of game-theoretic interactions, such as equilibrium type, player objectives, and constraints
-* Building a rapprochement between machine learning methods and classical techniques for robust, adaptive, and geometric control
+* Finding the "right" signal representation for solving inverse problems, balancing interpretability and expressivity with computational constraints
+* Bridging theory and practice for inverse problems, e.g. nonlinear compressive sensing
+* Finding the "right" priors for solving inverse problems, e.g. how to leverage data-driven priors without succumbing to distribution shift fragility
+* Applications to medical and scientific imaging, including MRI, CT, and cryo-EM
 
-## Lab
+ <!-- Some projects in this line of work are [Plenoxels](https://alexyu.net/plenoxels/) and [K-Planes](https://sarafridov.github.io/K-Planes/).
+<p align="left"><iframe width="560" height="315" src="https://www.youtube.com/watch?v=KCDd7UFO1d0" title="Plenoxels video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p align="right"><iframe width="560" height="315" src="https://www.youtube.com/watch?v=pBqaAOTGfjQ" title="K-Planes video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> -->
+<!-- {% include video.html id="EmrReoNQP3s?t=1437" title="RSS 2021 Workshop Talk" %} -->
+
+
+<!-- ## Lab
 
 My lab website can be found [here](https://clearoboticslab.github.io). If you are a _prospective graduate student_, please feel free to reach out to me by email to express your interest. In your note, please identify one recent publication from the lab that you find interesting, and explain the technical nugget you found most exciting. Please also mention your favorite math class and the most exciting topic you learned in that class.
 
@@ -33,19 +40,10 @@ If you are an _undergraduate student_ who is interested in doing research in the
 
 ## Updates
 
-Note that this website is not updated as regularly as my lab website above. Apologies for any confusion.
+Note that this website is not updated as regularly as my lab website above. Apologies for any confusion. -->
 
 <!-- _(July 2021)_ I recently gave an invited talk at the [RSS 2021 Workshop on Perception and Control for Autonomous Navigation in Crowded, Dynamic Environments](https://negarmehr.github.io/RSS2021Workshop/). The talk aims to deliver a brief tutorial on (a) what dynamic games are, (b) why they are a good model for multi-agent interactions, (c) how to solve them efficiently, and (d) some of the mathematical subtlety underlying dynamic games. If you check out the earlier recorded talks in the workshop, you'll also notice that the iterative method for solving dynamic Nash games developed in my PhD thesis bears a striking resemblance to contemporaneous, [independent work going on at Waymo Research](https://youtu.be/T_LkNm3oXdE?t=640). -->
 
 <!-- <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/EmrReoNQP3s?start=1420" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> -->
 <!-- {% include video.html id="EmrReoNQP3s?t=1437" title="RSS 2021 Workshop Talk" %} -->
 
-<!-- ### Interaction as a game -->
-
-<!-- Dynamic games are a widely-applicable mathematical tool, and offer an attractive alternative to traditional formulations of motion planning problems. In particular, motion planning problems are often posed in either static environments or dynamic environments where the predicted motion of other agents is completely independent from the robot's planned trajectory. Unfortunately, this can put an undue burden on the predictive model to be precise despite enormous uncertainty. Dynamic game theory offers an exciting alternative; rather than fix a prediction beforehand, we can presume that other agents are optimizing some _known_ objectives, and solve a dynamic game to find _a local equilibrium_. Effectively coupling prediction and planning, this approach shifts the enormous burden of making accurate predictions to the potentially more straightforward task of modeling short-term dynamic objectives. -->
-
-<!-- Until relatively recently, dynamic games were widely considered to be computationally intractible for general nonlinear systems and multiple players with arbitrary objectives. Several approximation techniques have been explored in the literature, but to my knowledge none have been seriously considered in the industry. [My own work](https://arxiv.org/pdf/1909.04694) in this area consists of a fast second-order solver which bears resemblance to iterative LQR--a standard algorithm for nonlinear model-predictive control used in the autonomous vehicle industry. I recently developed a real-time C++ implementation, available [open-source](https://hjreachability.github.io/ilqgames/). This solver has been tested in simulation, in hardware in the lab, and onboard a full-scale Boeing experimental aircraft. -->
-
-<!-- ### Inferring properties of dynamic games -->
-
-<!-- Perhaps the most straightforward limitation of game-theoretic interaction models is that they presume _a priori_ knowledge of all players' objectives. Moreover, they typically also have multiple equilibria which encode significantly different outcomes. To use games effectively in uncertain situations, it is critical to be able to infer these properties from noisy, partial observations of players' activity in real-time.  -->
