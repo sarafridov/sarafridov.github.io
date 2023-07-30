@@ -1,9 +1,9 @@
 ---
 title: About me
 feature_text: |
-  <span style="color: white;">
+  {% <span style="color: white;">
   ## Sara Fridovich-Keil
-  I am a postdoc at Stanford University, working with Profs. Gordon Wetzstein and Mert Pilanci in the Department of Electrical Engineering. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging.</span>
+  I am a postdoc at Stanford University, working with Profs. Gordon Wetzstein and Mert Pilanci in the Department of Electrical Engineering. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging.</span> %}
 feature_image: "/assets/imgs/crater_lake_crop2.jpeg"
 excerpt: "inverse problems, computational imaging, computer vision, foundations of machine learning"
 ---
