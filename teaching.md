@@ -1,17 +1,15 @@
 ---
 title: Teaching
 feature_text:
-    Undergraduate and graduate teaching at UT Austin.
-feature_image: "https://picsum.photos/2560/600?image=873"
+    Undergraduate and graduate teaching at UC Berkeley.
+feature_image: "/assets/imgs/crater_lake_crop2_faded.jpeg"
 excerpt: "teaching"
 aside: false
 ---
 
-The following is a list of courses I have taught as a professor at UT Austin.
+The following is a list of courses for which I have served as a Graduate Student Instructor at UC Berkeley. Previously, I also served as a tutor and undergraduate lab TA at Princeton.
 
 ## Course List
 
-- ASE 330M: Linear System Analysis, Spring 2023 [(syllabus)](/assets/pdfs/ase330m_syllabus23.pdf)
-- ASE 389: Game Theoretic Modeling of Multi-Agent Systems, Fall 2022 [(syllabus)](/assets/pdfs/ase389_syllabus22.pdf)
-- ASE 330M: Linear System Analysis, Spring 2022 [(syllabus)](/assets/pdfs/ase330m_syllabus22.pdf)
-- ASE 389: (Game Theoretic) Modeling of Multi-Agent Systems, Fall 2021 [(syllabus)](/assets/pdfs/ase389_syllabus21.pdf)
+- CS 172: Computability and Complexity, Spring 2021 [(website)](https://people.eecs.berkeley.edu/~sinclair/cs172/s21.html)
+- EECS 281A: Statistical Learning Theory, Fall 2019

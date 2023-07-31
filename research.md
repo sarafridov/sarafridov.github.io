@@ -2,14 +2,16 @@
 title: Research
 feature_text: |
   Recent research projects
-feature_image: "https://picsum.photos/2560/600?image=873"
+feature_image: "/assets/imgs/crater_lake_crop2_faded.jpeg"
 excerpt: "Recent research projects"
 aside: false
 ---
 
 The following is a brief summary of past research projects. In most cases, code is available on github, and links are provided.
 
-## Learning Mixed Strategies in Trajectory Games
+TODO: fill this in
+
+<!-- ## Learning Mixed Strategies in Trajectory Games
 
 {% include video.html id="gT52cKH9pvg" title="Lifted games video" %}
 
@@ -141,4 +143,4 @@ Atom Mapping is a flexible new map representation, designed to replace the tradi
 
 The AtomMap idea is simple: replace a regular grid of cubes with an unstructured collection of identical, nonoverlapping spheres (which we call atoms). Going off the grid, so to speak, lets us lay down atoms as nearly tangent to observed surfaces as possible, which can dramatically improve our resolution.
 
-AtomMap was presented at ICRA 2017. The paper is accessible [here](https://ieeexplore.ieee.org/abstract/document/7989355/), and the code is available [here](https://github.com/ucberkeley-vip/atom_mapping).
+AtomMap was presented at ICRA 2017. The paper is accessible [here](https://ieeexplore.ieee.org/abstract/document/7989355/), and the code is available [here](https://github.com/ucberkeley-vip/atom_mapping). -->
