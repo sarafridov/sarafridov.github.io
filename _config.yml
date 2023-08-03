@@ -100,7 +100,7 @@ logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "I am a postdoc in the Department of Electrical Engineering at Stanford. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging." # Site description and default description, also used in jekyll-seo-tag
 url: "https://sarafridov.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/dfridovi/sarafridov.github.io"
+repo: "https://github.com/sarafridov/sarafridov.github.io"
 email: "sarafk@stanford.edu"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # google_analytics: ''
