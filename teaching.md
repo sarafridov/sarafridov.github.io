@@ -1,7 +1,5 @@
 ---
 title: Teaching
-feature_text:
-    Undergraduate and graduate teaching at UC Berkeley.
 feature_image: "/assets/imgs/crater_lake_crop2_faded.jpeg"
 excerpt: "teaching"
 aside: false

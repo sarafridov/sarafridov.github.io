@@ -1,13 +1,11 @@
 ---
 title: Research
-feature_text: |
-  Recent research projects
 feature_image: "/assets/imgs/crater_lake_crop2_faded.jpeg"
 excerpt: "Recent research projects"
 aside: false
 ---
 
-The following is a brief summary of past research projects. In most cases, code is available on github, and links are provided.
+The following is a brief summary of past research projects. In most cases, code is available on GitHub, and links are provided.
 
 TODO: fill this in
 

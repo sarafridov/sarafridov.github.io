@@ -1,21 +1,24 @@
 ---
 title: About me
 feature_text: |
-  ## Sara Fridovich-Keil
-  I am a postdoc at Stanford University, working with Profs. Gordon Wetzstein and Mert Pilanci in the Department of Electrical Engineering. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging.
+  # Sara Fridovich-Keil
 feature_image: "/assets/imgs/crater_lake_crop2_faded.jpeg"
 excerpt: "inverse problems, computational imaging, computer vision, foundations of machine learning"
 ---
 
 {% include figure.html image="/assets/imgs/photo2.jpeg" position="right" width="300" height="800" %}
 
-Hi there! I am a postdoctoral scholar at Stanford University, where I work with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) on foundations and applications of machine learning and signal processing in computational imaging. I am currently supported by an NSF Mathematical Sciences Postdoctoral Research Fellowship. I completed my PhD in electrical engineering and computer sciences at UC Berkeley in May 2023, where I was advised by [Ben Recht](https://people.eecs.berkeley.edu/~brecht/) and supported by an NSF Graduate Research Fellowship. 
+Hi there! I am a postdoc at Stanford University, working with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) in the Department of Electrical Engineering. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging.
+<!-- I am a postdoctoral scholar at Stanford University, where I work with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) on foundations and applications of machine learning and signal processing in computational imaging.  -->
+I am currently supported by an NSF Mathematical Sciences Postdoctoral Research Fellowship. I completed my PhD in electrical engineering and computer sciences at UC Berkeley in May 2023, where I was advised by [Ben Recht](https://people.eecs.berkeley.edu/~brecht/) and supported by an NSF Graduate Research Fellowship. 
+
+**I'm on the 2023-2024 academic job market.**
 
 Outside of research, I like to hike, garden, cook, paint, and read fantasy and historical fiction novels.
 
 ### Contact info
 
-The best way to reach me is by email, at `sarafk at stanford dot edu`. 
+The best way to reach me is by email, at `sarafk at stanford dot edu`. You can also find me on [Google Scholar](https://scholar.google.com/citations?user=9xF7M6wAAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/sara-fridovich-keil-3aa744160/) and [GitHub](https://github.com/sarafridov/).
 
 ## Research interests
 
