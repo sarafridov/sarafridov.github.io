@@ -14,7 +14,7 @@ I am currently supported by an NSF Mathematical Sciences Postdoctoral Research F
 
 **I'm on the 2023-2024 academic job market.**
 
-Outside of research, I like to hike, garden, cook, paint, and read fantasy and historical fiction novels.
+Outside of research, I like to hike (the banner photo is one I took at Crater Lake National Park), garden, cook, paint, and read fantasy and historical fiction novels.
 
 ### Contact info
 

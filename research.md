@@ -5,9 +5,41 @@ excerpt: "Recent research projects"
 aside: false
 ---
 
-The following is a brief summary of past research projects. In most cases, code is available on GitHub, and links are provided.
+The following is a brief summary of selected past research projects. In most cases, code is available on GitHub, and links are provided.
 
-TODO: fill this in
+TODO: finish filling this in
+
+## Neural Microfacet Fields for Inverse Rendering
+
+{% include video.html id="dKJIGLrOSLk" title="Neural Microfacet Fields for Inverse Rendering" %}
+
+We propose Neural Microfacet Fields, a method for recovering materials, geometry, and environment illumination from images of a scene. Our method uses a microfacet reflectance model within a volumetric setting by treating each sample along the ray as a (potentially non-opaque) surface. Using surface-based Monte Carlo rendering in a volumetric setting enables our method to perform inverse rendering efficiently by combining decades of research in surface-based light transport with recent advances in volume rendering for view synthesis. Our approach outperforms prior work in inverse rendering, capturing high fidelity geometry and high frequency illumination details; its novel view synthesis results are on par with state-of-the-art methods that do not recover illumination or materials.
+
+This work is published at ICCV 2023, and has a [project page](https://half-potato.gitlab.io/posts/nmf/) with links to the paper and code, as well as additional results.
+
+## K-Planes: Explicit Radiance Fields in Space, Time, and Appearance
+
+{% include video.html id="pBqaAOTGfjQ" title="K-Planes" %}
+
+We introduce k-planes, a white-box model for radiance fields in arbitrary dimensions. Our model uses d-choose-2 planes to represent a d-dimensional scene, providing a seamless way to go from static (d=3) to dynamic (d=4) scenes and beyond. This planar factorization makes adding dimension-specific priors easy, e.g. temporal smoothness and multi-resolution spatial structure, and induces a natural decomposition of static and dynamic components of a scene. We use a linear feature decoder with a learned color basis that yields similar performance as a nonlinear black-box MLP decoder. Across a range of synthetic and real, static and dynamic, fixed and varying appearance scenes, k-planes yields competitive and often state-of-the-art reconstruction fidelity with low memory usage, achieving 1000x compression over a full 4D grid, and fast optimization with a pure PyTorch implementation.
+
+This work is published at CVPR 2023, and has a [project page](https://sarafridov.github.io/K-Planes/) with links to the paper and code, as well as additional results.
+
+## Plenoxels: Radiance Fields without Neural Networks
+
+{% include video.html id="KCDd7UFO1d0" title="Plenoxels" %}
+
+We introduce Plenoxels (plenoptic voxels), a system for photorealistic view synthesis. Plenoxels represent a bounded or unbounded scene as a sparse 3D grid with spherical harmonics. This representation can be optimized from calibrated images via gradient methods and regularization without any neural components. On standard, benchmark tasks, Plenoxels are optimized two orders of magnitude faster than Neural Radiance Fields with no loss in visual quality.
+
+This work is published at CVPR 2022 (oral), and has a [project page](https://alexyu.net/plenoxels/) with links to the paper and code, as well as additional results.
+
+## Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains
+
+We show that passing input points through a simple Fourier feature mapping enables a multilayer perceptron (MLP) to learn high-frequency functions in low-dimensional problem domains. These results shed light on recent advances in computer vision and graphics that achieve state-of-the-art results by using MLPs to represent complex 3D objects and scenes. Using tools from the neural tangent kernel (NTK) literature, we show that a standard MLP fails to learn high frequencies both in theory and in practice. To overcome this spectral bias, we use a Fourier feature mapping to transform the effective NTK into a stationary kernel with a tunable bandwidth. We suggest an approach for selecting problem-specific Fourier features that greatly improves the performance of MLPs for low-dimensional regression tasks relevant to the computer vision and graphics communities.
+
+This work is published at NeurIPS 2020 (oral), and has a [project page](https://bmild.github.io/fourfeat/) with links to the paper and code, as well as additional results.
+
+
 
 <!-- ## Learning Mixed Strategies in Trajectory Games
 
