@@ -18,7 +18,7 @@ Outside of research, I like to hike (the banner photo is one I took at Crater La
 
 ### Contact info
 
-The best way to reach me is by email, at `sarafk at stanford dot edu`. You can also find me on [Google Scholar](https://scholar.google.com/citations?user=9xF7M6wAAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/sara-fridovich-keil-3aa744160/) and [GitHub](https://github.com/sarafridov/).
+The best way to reach me is by email, at `sarafk at stanford dot edu`. You can also find me on [Google Scholar](https://scholar.google.com/citations?user=9xF7M6wAAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/sara-fridovich-keil-3aa744160/), and [GitHub](https://github.com/sarafridov/).
 
 ## Research interests
 
