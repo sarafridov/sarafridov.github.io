@@ -10,7 +10,7 @@ excerpt: "inverse problems, computational imaging, computer vision, foundations 
 
 Hi there! I am a postdoc at Stanford University, working with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) in the Department of Electrical Engineering. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging.
 <!-- I am a postdoctoral scholar at Stanford University, where I work with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) on foundations and applications of machine learning and signal processing in computational imaging.  -->
-I am currently supported by an NSF Mathematical Sciences Postdoctoral Research Fellowship. I completed my PhD in electrical engineering and computer sciences at UC Berkeley in May 2023, where I was advised by [Ben Recht](https://people.eecs.berkeley.edu/~brecht/) and supported by an NSF Graduate Research Fellowship. 
+I am currently supported by an NSF Mathematical Sciences Postdoctoral Research Fellowship. I completed my PhD in Electrical Engineering and Computer Sciences at UC Berkeley in May 2023, where I was advised by [Ben Recht](https://people.eecs.berkeley.edu/~brecht/) and supported by an NSF Graduate Research Fellowship. 
 
 **I'm on the 2023-2024 academic job market.**
 
@@ -49,4 +49,3 @@ Note that this website is not updated as regularly as my lab website above. Apol
 
 <!-- <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/EmrReoNQP3s?start=1420" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> -->
 <!-- {% include video.html id="EmrReoNQP3s?t=1437" title="RSS 2021 Workshop Talk" %} -->
-
