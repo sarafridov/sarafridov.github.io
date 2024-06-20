@@ -5,7 +5,7 @@ excerpt: "Recent research projects"
 aside: false
 ---
 
-The following is a brief summary of selected past research projects. In most cases, code is available on GitHub, and links are provided. For a more complete list with citation metrics, please refer to my [Google Scholar](https://scholar.google.com/citations?user=9xF7M6wAAAAJ&hl=en).
+The following is a brief summary of selected past research projects, in reverse chronological order. In most cases, code is available on GitHub, and links are provided. For a more complete list with citation metrics, please refer to my [Google Scholar](https://scholar.google.com/citations?user=9xF7M6wAAAAJ&hl=en).
 
 
 ### Gradient Descent Provably Solves Nonlinear Tomographic Reconstruction

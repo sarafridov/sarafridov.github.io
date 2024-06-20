@@ -6,13 +6,13 @@ feature_image: "/assets/imgs/crater_lake_crop2_faded.jpeg"
 excerpt: "inverse problems, computational imaging, computer vision, foundations of machine learning"
 ---
 
-{% include figure.html image="/assets/imgs/photo2.jpeg" position="right" width="300" height="800" %}
+{% include figure.html image="/assets/imgs/headshot_stanford.jpeg" position="right" width="300" height="800" %}
 
 Hi there! I am a postdoc at Stanford University, working with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) in the Department of Electrical Engineering. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging.
 <!-- I am a postdoctoral scholar at Stanford University, where I work with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) on foundations and applications of machine learning and signal processing in computational imaging.  -->
-I am currently supported by an NSF Mathematical Sciences Postdoctoral Research Fellowship. I completed my PhD in Electrical Engineering and Computer Sciences at UC Berkeley in May 2023, where I was advised by [Ben Recht](https://people.eecs.berkeley.edu/~brecht/) and supported by an NSF Graduate Research Fellowship. 
+I am currently supported by an NSF Mathematical Sciences Postdoctoral Research Fellowship. I completed my PhD in Electrical Engineering and Computer Sciences at UC Berkeley in May 2023, where I was advised by [Ben Recht](https://people.eecs.berkeley.edu/~brecht/) and supported by an NSF Graduate Research Fellowship.
 
-**I'm on the 2023-2024 academic job market.**
+**I am an incoming assistant professor at Georgia Tech ECE!**
 
 Outside of research, I like to hike (the banner photo is one I took at Crater Lake National Park), garden, cook, paint, and read fantasy and historical fiction novels.
 
@@ -27,7 +27,7 @@ I am generally interested in foundations of machine learning, particularly conne
 * Finding the "right" signal representation for solving inverse problems, balancing interpretability and expressivity with computational constraints
 * Bridging theory and practice for inverse problems, e.g. nonlinear compressive sensing
 * Finding the "right" priors for solving inverse problems, e.g. how to leverage data-driven priors without succumbing to distribution shift fragility
-* Applications to medical and scientific imaging, including MRI, CT, and cryo-EM
+* Applications to medical and scientific imaging, including e.g. MRI, CT, and cryo-EM
 
 <!-- Some projects in this line of work are [Plenoxels](https://alexyu.net/plenoxels/) and [K-Planes](https://sarafridov.github.io/K-Planes/).
 <p align="left"><iframe width="560" height="315" src="https://www.youtube.com/watch?v=KCDd7UFO1d0" title="Plenoxels video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
