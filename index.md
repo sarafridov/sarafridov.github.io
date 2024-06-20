@@ -22,7 +22,7 @@ The best way to reach me is by email, at `sarafk at stanford dot edu`. You can a
 
 ## Research interests
 
-I am generally interested in foundations of machine learning, particularly connections to signal processing and optimization, and applications to inverse problems that arise in computer vision and computational, medical, and scientific imaging. Please have a look at my [PhD dissertation](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2023/EECS-2023-63.html) and/or [dissertation talk](https://drive.google.com/file/d/1PpJx7MZiiNXr8X5sZCkmnQcJIiwvPc9Q/view). Some of my current research interests are:
+I am generally interested in foundations of machine learning, particularly connections to signal processing and optimization, and applications to inverse problems that arise in computer vision and computational, medical, and scientific imaging. Please have a look at my [PhD dissertation](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2023/EECS-2023-63.html) and/or [dissertation talk](https://drive.google.com/file/d/1PpJx7MZiiNXr8X5sZCkmnQcJIiwvPc9Q/view) and/or [job talk](https://scien.stanford.edu/index.php/event/dr-sara-fridovich-keil-stanford/). Some of my current research interests are:
 
 * Finding the "right" signal representation for solving inverse problems, balancing interpretability and expressivity with computational constraints
 * Bridging theory and practice for inverse problems, e.g. nonlinear compressive sensing
