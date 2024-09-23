@@ -97,7 +97,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Sara Fridovich-Keil" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "I am a postdoc in the Department of Electrical Engineering at Stanford. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging." # Site description and default description, also used in jekyll-seo-tag
+description: "I am a postdoc in the EE at Stanford, and incoming Assistant Professor in ECE at Georgia Tech. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging." # Site description and default description, also used in jekyll-seo-tag
 url: "https://sarafridov.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/sarafridov/sarafridov.github.io"
@@ -129,12 +129,12 @@ navigation_header:
   url: /teaching/
 - title: Mentoring
   url: /mentoring/
-# - title: Side Projects
-#   url: /side_projects/
+- title: Prospective
+  url: /prospective/
 # - title: Resources
 #   url: /resources/
 - title: Curriculum Vitae
-  url: '/assets/pdfs/10.15.2023.pdf'
+  url: '/assets/pdfs/9.23.2024.pdf'
 
 navigation_footer:
 - title: Created by Sara Fridovich-Keil
@@ -143,7 +143,8 @@ navigation_footer:
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Google Scholar: https://scholar.google.com/citations?user=9xF7M6wAAAAJ&hl=en
   LinkedIn: https://www.linkedin.com/in/sara-fridovich-keil-3aa744160/
-  GitHub: https://github.com/sarafridov
+  Personal GitHub: https://github.com/sarafridov
+  VOILA Lab GitHub: https://github.com/voilalab
   link: https://sarafridov.github.io
 #  RSS: /feed.xml
 

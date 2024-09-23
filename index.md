@@ -12,7 +12,7 @@ Hi there! I am a postdoc at Stanford University, working with [Gordon Wetzstein]
 <!-- I am a postdoctoral scholar at Stanford University, where I work with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) on foundations and applications of machine learning and signal processing in computational imaging.  -->
 I am currently supported by an NSF Mathematical Sciences Postdoctoral Research Fellowship. I completed my PhD in Electrical Engineering and Computer Sciences at UC Berkeley in May 2023, where I was advised by [Ben Recht](https://people.eecs.berkeley.edu/~brecht/) and supported by an NSF Graduate Research Fellowship.
 
-**I am an incoming assistant professor at Georgia Tech ECE!**
+**I am an incoming assistant professor at Georgia Tech ECE! If you are interested in joining my lab, please read [this](https://sarafridov.github.io/prospective/) before contacting me. This page also includes some advice and resources for new students in my group.**
 
 Outside of research, I like to hike (the banner photo is one I took at Crater Lake National Park), garden, cook, paint, and read fantasy and historical fiction novels.
 
