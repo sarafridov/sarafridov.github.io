@@ -8,21 +8,24 @@ excerpt: "inverse problems, computational imaging, computer vision, foundations 
 
 {% include figure.html image="/assets/imgs/headshot_stanford.jpeg" position="right" width="300" height="800" %}
 
-Hi there! I am a postdoc at Stanford University, working with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) in the Department of Electrical Engineering. My research involves machine learning, signal processing, and optimization for solving inverse problems in computer vision as well as medical and scientific imaging.
+Hi there! I am an assistant professor at Georgia Tech in the School of Electrical and Computer Engineering; I am also program faculty in Machine Learning.
+<!-- Hi there! I am a postdoc at Stanford University, working with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) in the Department of Electrical Engineering. -->
+My research involves machine learning, signal processing, and optimization for solving inverse problems in computational imaging, including computer vision as well as medical and scientific imaging.
 <!-- I am a postdoctoral scholar at Stanford University, where I work with [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/) and [Mert Pilanci](https://web.stanford.edu/~pilanci/) on foundations and applications of machine learning and signal processing in computational imaging.  -->
-I am currently supported by an NSF Mathematical Sciences Postdoctoral Research Fellowship. I completed my PhD in Electrical Engineering and Computer Sciences at UC Berkeley in May 2023, where I was advised by [Ben Recht](https://people.eecs.berkeley.edu/~brecht/) and supported by an NSF Graduate Research Fellowship.
+<!-- I am currently supported by an NSF Mathematical Sciences Postdoctoral Research Fellowship.  -->
+<!-- I completed my PhD in Electrical Engineering and Computer Sciences at UC Berkeley in May 2023, where I was advised by [Ben Recht](https://people.eecs.berkeley.edu/~brecht/) and supported by an NSF Graduate Research Fellowship. -->
 
-**I am an incoming assistant professor at Georgia Tech ECE! If you are interested in joining my lab, please read [this](https://sarafridov.github.io/prospective/) before contacting me. This page also includes some advice and resources for new students in my group.**
+**If you are interested in joining my lab, please read [this](https://sarafridov.github.io/prospective/) before contacting me. This page also includes some advice and resources for current and prospective students in my group.**
 
-Outside of research, I like to hike (the banner photo is one I took at Crater Lake National Park), garden, cook, paint, and read fantasy and historical fiction novels.
+Outside of research, I like to hike (the banner photo is one I took at Crater Lake National Park), garden, cook, paint, and read fantasy and historical fiction.
 
 ### Contact info
 
-The best way to reach me is by email, at `sarafk at stanford dot edu`. You can also find me on [Google Scholar](https://scholar.google.com/citations?user=9xF7M6wAAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/sara-fridovich-keil-3aa744160/), and [GitHub](https://github.com/sarafridov/).
+The best way to reach me is by email, at `sfk at gatech dot edu`. You can also find me on [Google Scholar](https://scholar.google.com/citations?user=9xF7M6wAAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/sara-fridovich-keil-3aa744160/), our [lab GitHub](https://github.com/voilalab/), and my [personal GitHub](https://github.com/sarafridov/).
 
 ## Research interests
 
-I am generally interested in foundations of machine learning, particularly connections to signal processing and optimization, and applications to inverse problems that arise in computer vision and computational, medical, and scientific imaging. Please have a look at my [PhD dissertation](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2023/EECS-2023-63.html) and/or [dissertation talk](https://drive.google.com/file/d/1PpJx7MZiiNXr8X5sZCkmnQcJIiwvPc9Q/view) and/or [job talk](https://scien.stanford.edu/index.php/event/dr-sara-fridovich-keil-stanford/). Some of my current research interests are:
+I am generally interested in foundations of machine learning, particularly connections to signal processing and optimization, and applications to inverse problems that arise in computational imaging. Please have a look at my [PhD dissertation](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2023/EECS-2023-63.html) and/or [dissertation talk](https://drive.google.com/file/d/1PpJx7MZiiNXr8X5sZCkmnQcJIiwvPc9Q/view) and/or [job talk](https://scien.stanford.edu/index.php/event/dr-sara-fridovich-keil-stanford/). Some of my current research interests are:
 
 * Finding the "right" signal representation for solving inverse problems, balancing interpretability and expressivity with computational constraints
 * Bridging theory and practice for inverse problems, e.g. nonlinear compressive sensing
