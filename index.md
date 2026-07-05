@@ -15,7 +15,7 @@ My research involves machine learning, signal processing, and optimization for s
 <!-- I am currently supported by an NSF Mathematical Sciences Postdoctoral Research Fellowship.  -->
 <!-- I completed my PhD in Electrical Engineering and Computer Sciences at UC Berkeley in May 2023, where I was advised by [Ben Recht](https://people.eecs.berkeley.edu/~brecht/) and supported by an NSF Graduate Research Fellowship. -->
 
-**If you are interested in joining my lab, please read [this](https://sarafridov.github.io/prospective/) before contacting me. This page also includes some advice and resources for current and prospective students in my group.**
+**My [lab website](https://voilalab.github.io) is now up! It is updated more frequently than this personal website. If you are interested in joining my lab, please read [this](https://sarafridov.github.io/prospective/) before contacting me.**
 
 Outside of research, I like to hike (the banner photo is one I took at Crater Lake National Park), garden, cook, paint, and read fantasy and historical fiction.
 
